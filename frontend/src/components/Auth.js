@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import { GoogleLogin } from 'react-google-login'
 import actions from '../api';
+console.log(process.env)
 class Auth extends Component {
 
     responseGoogle = async (response) => {
